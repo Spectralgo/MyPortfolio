@@ -1,0 +1,9 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* An exemple of a modification of the utility class
+.btn{ 
+    @apply rounded-none
+ } 
+ */

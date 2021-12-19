@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ul4lgF9Kxkc70k73csE+GXh56CLfYoBRhY8EvEnLtY+4/AxtKAR7c+OOO3TgiMyja9itgDtU6hr+o0a8X7Ff9g==",
+  "success": true,
+  "projectFilePath": "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rocks\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\6.0.1\\microsoft.aspnetcore.spaservices.extensions.6.0.1.nupkg.sha512",
+    "C:\\Users\\rocks\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\rocks\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
+    "C:\\Users\\rocks\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\rocks\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\rocks\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
