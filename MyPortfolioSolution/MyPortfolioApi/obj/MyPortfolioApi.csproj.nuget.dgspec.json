@@ -14,7 +14,7 @@
         "outputPath": "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\MyPortfolioSolution\\MyPortfolioApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet"
         ],
         "configFilePaths": [
           "C:\\Users\\rocks\\AppData\\Roaming\\NuGet\\NuGet.Config",

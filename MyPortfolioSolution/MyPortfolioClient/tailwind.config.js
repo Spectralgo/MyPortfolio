@@ -16,7 +16,8 @@ module.exports = {
         'input': '#2a2a35',
       },
       fontFamily: {
-        'poppins': ["'Poppins'", 'sans-serif']
+        'poppins': ["'Poppins'", 'sans-serif'],
+        'poiret': ["'Poiret One'", 'serif'],
       }
     },
   },
@@ -24,7 +25,7 @@ module.exports = {
     require('daisyui'),
   ],
   daisyui: {
-    themes: [
+    themes: [//'black','forest',
       {
         'spectralgo-dark':
         {
@@ -41,8 +42,8 @@ module.exports = {
           "neutral-focus": "#16181d",
           "neutral-content": "#ffffff",
           "base-100": "#17171F",
-          "base-200": "#2a2e37",
-          "base-300": "#36364a",
+          "base-200": "#22252c",
+          "base-300": "#2c2c3a",
           "base-content": "#ebecf0",
           "info": "#66c6ff",
           "success": "#87d039",
@@ -62,6 +63,6 @@ module.exports = {
           "--tab-radius": "0.5rem",
         }
 
-      }]
+      },]
   },
 }
