@@ -28,8 +28,6 @@
           un produit<br>
           innovant<br>
           de A à Z </h1>
-        <h1 class="font-bold text-5xl md:text-6xl  text-center md:text-left mb-5">
-          {{message_from_api}}</h1>
 
         <ul class="text-center md:text-left font-bold space-y-1 mb-5">
           <li><span class="text-accent">Dévelopeur Web</span> Full Stack</li>
