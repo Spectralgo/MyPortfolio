@@ -12,7 +12,7 @@ done
 
 # get highest tag number, and add v0.1.O if doesn't exist
 git fetch --prune --unshallow 2>/dev/null
-CURRENT_VERSION=`git describe --tags --abbrev=0 2>/dev/null`
+CURRENT_VERSION=`git describe --abbrev=0 --tags 2>/dev/null`
 
 if [[ "${CURRENT_VERSION}" == "" ]]; 
 then
@@ -35,6 +35,7 @@ then
     ((CURRENT_VERSION_PARTS[2]++))
     CURRENT_VERSION_PARTS[3]="0"
 elif [[ $VERSION == 'patch']]
+then
     # bump build version
     ((CURRENT_VERSION_PARTS[3]++))
 else
