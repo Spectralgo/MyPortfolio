@@ -20,31 +20,27 @@ then
 fi	
 echo "Current Version: ${CURRENT_VERSION}"
 
-# replace . with space so can split into an array
-CURRENT_VERSION_PARTS=(${CURRENT_VERSION//./ })
+regex="([0-9]+).([0-9]+).([0-9]+)"
+if [[ $CURRENT_VERSION =~ $regex ]]; then
+  major="${BASH_REMATCH[1]}"
+  minor="${BASH_REMATCH[2]}"
+  patch="${BASH_REMATCH[3]}"
+fi
 
-# get numeric portions into separate variables
-VNUM1=${CURRENT_VERSION_PARTS[0]}
-VNUM2=${CURRENT_VERSION_PARTS[1]}
-VNUM3=${CURRENT_VERSION_PARTS[2]}
-
-# increment version conditionally
-if [[ $VERSION == 'major']]
-then
-    VNUM1=v$((VNUM1+1))
-elif [[ $VERSION == 'minor']]
-then
-     VNUM2=$((VNUM2+1))
-elif [[ $VERSION == 'patch']]
-then
-    VNUM3=$((VNUM3+1))
+# check paramater to see which number to increment
+if [[ "$VERSION" == "patch" ]]; then
+  patch=$(echo $patch + 1 | bc)
+elif [[ "$VERSION" == "minor" ]]; then
+  minor=$(echo $build + 1 | bc)
+elif [[ "$VERSION" == "major" ]]; then
+  major=$(echo $major+1 | bc)
 else
-    echo "Invalid or missing version type try -v [major|minor|patch]"
-    exit 1
+  echo "missing version parameter, try -v patch, minor, or major"
+  exit -1
 fi
 
 
-NEW_VERSION="${VMAJOR}.${VMINOR}.${VPATCH}"
+NEW_VERSION="v${major}.${minor}.${patch}"
 echo "(${VERSION}) updating ${CURRENT_VERSION} to ${NEW_VERSION}"
 
 #get current hash and see if it already has a tag
