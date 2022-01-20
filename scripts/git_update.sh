@@ -31,7 +31,7 @@ PATCH=${CURRENT_VERSION_PARTS[2]}
 # increment version conditionally
 if [[ $VERSION == 'major']]
 then
-    MAJOR=((MAJOR+1))
+    MAJOR=$((MAJOR+1))
 elif [[ $VERSION == 'minor']]
 then
     MINOR=$((MINOR+1))
