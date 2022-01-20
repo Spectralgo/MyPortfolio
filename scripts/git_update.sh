@@ -31,13 +31,13 @@ VPATCH=${CURRENT_VERSION_PARTS[2]}
 # increment version conditionally
 if [[ $VERSION == 'major']]
 then
-    VMAJOR=$((MAJOR+1))
+    VMAJOR=$((VMAJOR+1))
 elif [[ $VERSION == 'minor']]
 then
-    VMINOR=$((MINOR+1))
+     VMINOR=$((VMINOR+1))
 elif [[ $VERSION == 'patch']]
 then
-    VPATCH=$((PATCH+1))
+    VPATCH=$((VPATCH+1))
 else
     echo "Invalid or missing version type try -v [major|minor|patch]"
     exit 1
