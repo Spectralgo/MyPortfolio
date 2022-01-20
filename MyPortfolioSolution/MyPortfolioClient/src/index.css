@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-a{
-    @apply rounded
+a, .btn, .card{
+    @apply rounded-none
+}
+.btn{
+    @apply capitalize
 }
 
 html, body{
@@ -25,6 +28,10 @@ html, body{
     z-index: -1;
 }
 
+.-z-2{
+    z-index: -2;
+}
+
 .secondary-title{
     @apply text-3xl font-bold;
 }
@@ -34,12 +41,9 @@ html, body{
 }
 
 .section-paragraph{
-    @apply text-secondary my-6 w-full max-w-3xl;
+    @apply text-secondary-bis my-6 w-full max-w-3xl;
 }
 
-.badge{
-    @apply px-5 py-2 text-sm rounded bg-badge
-}
 
 [id] {
     scroll-margin-top: 100px;

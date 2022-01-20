@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj": {}
+    "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\src\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj": {}
   },
   "projects": {
-    "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj": {
+    "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\src\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj",
+        "projectUniqueName": "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\src\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj",
         "projectName": "MyPortfolioApi",
-        "projectPath": "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj",
+        "projectPath": "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\src\\MyPortfolioSolution\\MyPortfolioApi\\MyPortfolioApi.csproj",
         "packagesPath": "C:\\Users\\rocks\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\MyPortfolioSolution\\MyPortfolioApi\\obj\\",
+        "outputPath": "C:\\code\\website\\projects\\portfolio\\MyPortfolio\\src\\MyPortfolioSolution\\MyPortfolioApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\rocks\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,8 @@
+C:\code\website\projects\portfolio\MyPortfolio\MyPortfolioSolution\MyPortfolioSolution\MyPortfolioApi\bin\Release\net6.0\publish\MyPortfolioApi.exe
+C:\code\website\projects\portfolio\MyPortfolio\MyPortfolioSolution\MyPortfolioSolution\MyPortfolioApi\bin\Release\net6.0\publish\appsettings.Development.json
+C:\code\website\projects\portfolio\MyPortfolio\MyPortfolioSolution\MyPortfolioSolution\MyPortfolioApi\bin\Release\net6.0\publish\appsettings.json
+C:\code\website\projects\portfolio\MyPortfolio\MyPortfolioSolution\MyPortfolioSolution\MyPortfolioApi\bin\Release\net6.0\publish\MyPortfolioApi.dll
+C:\code\website\projects\portfolio\MyPortfolio\MyPortfolioSolution\MyPortfolioSolution\MyPortfolioApi\bin\Release\net6.0\publish\MyPortfolioApi.deps.json
+C:\code\website\projects\portfolio\MyPortfolio\MyPortfolioSolution\MyPortfolioSolution\MyPortfolioApi\bin\Release\net6.0\publish\MyPortfolioApi.runtimeconfig.json
+C:\code\website\projects\portfolio\MyPortfolio\MyPortfolioSolution\MyPortfolioSolution\MyPortfolioApi\bin\Release\net6.0\publish\MyPortfolioApi.pdb
+C:\code\website\projects\portfolio\MyPortfolio\MyPortfolioSolution\MyPortfolioSolution\MyPortfolioApi\bin\Release\net6.0\publish\Microsoft.AspNetCore.SpaServices.Extensions.dll

@@ -8,7 +8,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
-    app.UseCors(corsPolicyBuilder => corsPolicyBuilder.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
+    // app.UseCors(corsPolicyBuilder => corsPolicyBuilder.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 }
 
 app.UseRouting();
@@ -25,4 +25,4 @@ app.UseSpa(spaBuilder =>
     }
 });
 app.MapControllers();
-app.Run();
+app.Run("http://0.0.0.0:5000");

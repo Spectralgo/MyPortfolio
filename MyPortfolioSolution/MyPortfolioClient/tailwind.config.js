@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         'body': '#17171F',
         'selected-text': '#a3a3ff',
-        'theme': '#3F3FFF',
+        'theme': '#a57dfc',
         'nav': '#404053',
         'secondary-bis': '#9191a4',
         'badge': '#3f3f51',
@@ -25,7 +25,7 @@ module.exports = {
     require('daisyui'),
   ],
   daisyui: {
-    themes: [//'black','forest',
+    themes: [//'luxury','forest',
       {
         'spectralgo-dark':
         {
@@ -41,9 +41,10 @@ module.exports = {
           "neutral": "#2a2e37",
           "neutral-focus": "#16181d",
           "neutral-content": "#ffffff",
-          "base-100": "#17171F",
-          "base-200": "#22252c",
-          "base-300": "#2c2c3a",
+          // "base-100": "#17171F",
+          "base-100": "#040404",
+          "base-200": "#17171F",
+          "base-300": "#22252c",
           "base-content": "#ebecf0",
           "info": "#66c6ff",
           "success": "#87d039",

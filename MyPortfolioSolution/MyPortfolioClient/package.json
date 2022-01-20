@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "daisyui": "^1.16.5",
-    "vue": "^3.2.25"
+    "v-smooth-scroll": "^2.0.0-beta.1",
+    "vue": "^3.2.25",
+    "vue-axios": "^3.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
