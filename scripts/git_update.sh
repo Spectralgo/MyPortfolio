@@ -24,27 +24,27 @@ echo "Current Version: ${CURRENT_VERSION}"
 CURRENT_VERSION_PARTS=(${CURRENT_VERSION//./ })
 
 # get numeric portions into separate variables
-MAJOR=${CURRENT_VERSION_PARTS[0]}
-MINOR=${CURRENT_VERSION_PARTS[1]}
-PATCH=${CURRENT_VERSION_PARTS[2]}
+VMAJOR=${CURRENT_VERSION_PARTS[0]}
+VMINOR=${CURRENT_VERSION_PARTS[1]}
+VPATCH=${CURRENT_VERSION_PARTS[2]}
 
 # increment version conditionally
 if [[ $VERSION == 'major']]
 then
-    MAJOR=$((MAJOR+1))
+    VMAJOR=$((MAJOR+1))
 elif [[ $VERSION == 'minor']]
 then
-    MINOR=$((MINOR+1))
+    VMINOR=$((MINOR+1))
 elif [[ $VERSION == 'patch']]
 then
-    PATCH=$((PATCH+1))
+    VPATCH=$((PATCH+1))
 else
     echo "Invalid or missing version type try -v [major|minor|patch]"
     exit 1
 fi
 
 
-NEW_VERSION="v${MAJOR}.${MINOR}.${PATCH}"
+NEW_VERSION="v${VMAJOR}.${VMINOR}.${VPATCH}"
 echo "(${VERSION}) updating ${CURRENT_VERSION} to ${NEW_VERSION}"
 
 #get current hash and see if it already has a tag
