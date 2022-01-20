@@ -6,7 +6,7 @@ VERSION=""
 while getopts v: flag
 do
     case "${flag}" in
-        v) VERSION="${OPTARG}" ;;
+        v) VERSION=${OPTARG} ;;
     esac
 done
 
