@@ -18,8 +18,8 @@ jobs:
     - name: Deleting old files
       run: rm -rf production/
     - name: Create production directory
-      run: |- 
-        mkdir production
+      run: | 
+        mkdir production/dist
         pwd
         ls
 
@@ -37,7 +37,12 @@ jobs:
       run: |
         pwd
         ls
-        rsync -a MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/ production
+        cp -rT MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/. production
+
+    - name: look into production api
+      run: |
+        cd production
+        ls
 
     - name: Use Node.js 16.x
       uses: actions/setup-node@v2
@@ -54,8 +59,12 @@ jobs:
       run: |
         pwd
         ls
-        rsync -a MyPortfolioSolution/MyPortfolioClient/dist/ production
+        cp -rT MyPortfolioSolution/MyPortfolioClient/dist/. production/dist
 
+    - name: look into production client
+      run: |
+        cd production/dist
+        ls
   
 
     - uses: google-github-actions/setup-gcloud@master
