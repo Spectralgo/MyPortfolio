@@ -37,7 +37,7 @@ jobs:
         dotnet publish -c Release 
 
     - name: Move Api files to production directory
-      run: cp -r MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/* ./Production/
+      run: cp -r MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/* production/
                                 
 
   build-vue:
@@ -60,7 +60,7 @@ jobs:
         npm run build 
 
     - name: Move Client dist to production directory
-      run: cp -r MyPortfolioSolution/MyPortfolioClient/dist/ ./Production/
+      run: cp -r MyPortfolioSolution/MyPortfolioClient/dist/ ./production/
 
   
   build-push-gcr:
