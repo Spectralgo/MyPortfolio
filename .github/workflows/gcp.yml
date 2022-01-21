@@ -19,6 +19,7 @@ jobs:
 
 
   build-dotnet:
+    needs: clean-old-production
     name: Build Dotnet Api
     runs-on: ubuntu-latest
     steps:
@@ -41,6 +42,7 @@ jobs:
                                 
 
   build-vue:
+    needs: clean-old-production
     name: Build Vue Client
     runs-on: ubuntu-latest
     steps:
