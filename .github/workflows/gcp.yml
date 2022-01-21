@@ -18,8 +18,8 @@ jobs:
     - name: Deleting old files
       run: rm -rf production/
     - name: Create production directory
-      run: | 
-        mkdir production/dist
+      run: |
+        mkdir -p production/dist
         pwd
         ls
 
