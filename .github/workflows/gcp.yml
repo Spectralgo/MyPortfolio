@@ -29,7 +29,7 @@ jobs:
     - name: Setup .NET Core SDK 6.0
       uses: actions/setup-dotnet@v1.7.2
       with:
-        dotnet-version: '6.x'
+        dotnet-version: '6.0'
 
     - name: Build
       run: |
@@ -37,7 +37,7 @@ jobs:
         dotnet publish -c Release 
 
     - name: Move Api files to production directory
-      run: cp -r ./bin/Release/net6.0/publish/* ~/Production/
+      run: cp -r MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/* ./Production/
                                 
 
   build-vue:
@@ -60,7 +60,7 @@ jobs:
         npm run build 
 
     - name: Move Client dist to production directory
-      run: cp -r /dist/ ~/Production/
+      run: cp -r MyPortfolioSolution/MyPortfolioClient/dist/ ./Production/
 
   
   build-push-gcr:
