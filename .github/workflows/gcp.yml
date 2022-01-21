@@ -38,8 +38,9 @@ jobs:
 
     - name: Move Api files to production directory
       run: |
-        cp -r MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/* /home/runner/work/MyPortfolio/MyPortfolio/production/
         pwd
+        ls
+        cp -a MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/. /production/
                                 
 
   build-vue:
@@ -63,7 +64,7 @@ jobs:
 
     - name: Move Client dist to production directory
       run: |
-       cp -r MyPortfolioSolution/MyPortfolioClient/dist/ /home/runner/work/MyPortfolio/MyPortfolio/production/production/
+       cp -a MyPortfolioSolution/MyPortfolioClient/dist/ /production/
        pwd
 
   
