@@ -12,9 +12,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Deleting old files
-      run: | 
-        rm -rf production/
+      run: rm -rf production/
+    - name: Create produciton directory
+      run: |- 
         mkdir production
+        ls
 
 
 
@@ -64,8 +66,9 @@ jobs:
 
     - name: Move Client dist to production directory
       run: |
-       cp -a MyPortfolioSolution/MyPortfolioClient/dist/ /production/
-       pwd
+        pwd
+        ls
+        cp -a MyPortfolioSolution/MyPortfolioClient/dist/ /production/
 
   
   build-push-gcr:
