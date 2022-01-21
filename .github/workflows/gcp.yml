@@ -83,9 +83,6 @@ jobs:
         project_id: ${{ env.PROJECT_ID }}
         export_default_credentials: true
 
-
-    - name: Delete old production files
-
     - name: Build Docker Image
       run: docker build -t $IMAGE_NAME:latest .
       
