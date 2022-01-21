@@ -38,7 +38,7 @@ jobs:
 
     - name: Move Api files to production directory
       run: |
-        mv MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/* ./production/
+        cp -r MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/* /home/runner/work/MyPortfolio/MyPortfolio/production/
         pwd
                                 
 
@@ -63,7 +63,7 @@ jobs:
 
     - name: Move Client dist to production directory
       run: |
-       cp -r MyPortfolioSolution/MyPortfolioClient/dist/ ./production/
+       cp -r MyPortfolioSolution/MyPortfolioClient/dist/ /home/runner/work/MyPortfolio/MyPortfolio/production/production/
        pwd
 
   
