@@ -48,9 +48,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Cd into MyPortfolioClient
-      run: 
-
     - name: Use Node.js 16.x
       uses: actions/setup-node@v2
       with:
