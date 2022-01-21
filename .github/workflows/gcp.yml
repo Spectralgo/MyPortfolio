@@ -26,16 +26,15 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Cd into MyPortfolioApi
-      run: cd MyPortfolioSolution/MyPortfolioApi
-
     - name: Setup .NET Core SDK 6.0
       uses: actions/setup-dotnet@v1.7.2
       with:
-        dotnet-version: 6.0
+        dotnet-version: '6.x'
 
     - name: Build
-      run: dotnet publish -c Release 
+      run: |
+        cd MyPortfolioSolution/MyPortfolioApi
+        dotnet publish -c Release 
 
     - name: Move Api files to production directory
       run: cp -r ./bin/Release/net6.0/publish/* ~/Production/
@@ -50,7 +49,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Cd into MyPortfolioClient
-      run: cd MyPortfolioSolution/MyPortfolioClient
+      run: 
 
     - name: Use Node.js 16.x
       uses: actions/setup-node@v2
@@ -59,6 +58,7 @@ jobs:
 
     - name: npm install & build
       run: |
+        cd MyPortfolioSolution/MyPortfolioClient
         npm install
         npm run build 
 
