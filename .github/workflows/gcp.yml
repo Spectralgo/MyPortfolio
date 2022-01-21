@@ -2,9 +2,70 @@ name: Build and Push Portfolio Solution to Google Cloud Platform
 on:
   push:
     branches: [master]
-    
+
+
 jobs:
+  clean-old-production:
+    name: Delete production directory content
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Deleting old files
+      run: | 
+        rm -r ./production
+        mkdir production
+
+
+
+  build-dotnet:
+    name: Build Dotnet Api
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Cd into MyPortfolioApi
+      run: cd MyPortfolioSolution/MyPortfolioApi
+
+    - name: Setup .NET Core SDK 6.0
+      uses: actions/setup-dotnet@v1.7.2
+      with:
+        dotnet-version: 6.0
+
+    - name: Build
+      run: dotnet publish -c Release 
+
+    - name: Move Api files to production directory
+      run: cp -r ./bin/Release/net6.0/publish/* ~/Production/
+                                
+
+  build-vue:
+    name: Build Vue Client
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Cd into MyPortfolioClient
+      run: cd MyPortfolioSolution/MyPortfolioClient
+
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v2
+      with:
+        node-version: 16.x
+
+    - name: npm install & build
+      run: |
+        npm install
+        npm run build 
+
+    - name: Move Client dist to production directory
+      run: cp -r /dist/ ~/Production/
+
+  
   build-push-gcr:
+    needs: [build-dotnet, build-vue] 
     name: Build and Push to GCP
     runs-on: ubuntu-latest
     env:
@@ -19,7 +80,10 @@ jobs:
         service_account_key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
         project_id: ${{ env.PROJECT_ID }}
         export_default_credentials: true
-    
+
+
+    - name: Delete old production files
+
     - name: Build Docker Image
       run: docker build -t $IMAGE_NAME:latest .
       
