@@ -5,35 +5,27 @@ on:
 
 
 jobs:
-  clean-old-production:
-    name: Delete production directory content
+  build-api-and-client:
+    name: Packaging for production 
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+
     - name: Deleting old files
       run: rm -rf production/
-    - name: Create produciton directory
+    - name: Create production directory
       run: |- 
         mkdir production
+        pwd
         ls
-
-
-
-  build-dotnet:
-    needs: clean-old-production
-    name: Build Dotnet Api
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
 
     - name: Setup .NET Core SDK 6.0
       uses: actions/setup-dotnet@v1.7.2
       with:
         dotnet-version: '6.0'
 
-    - name: Build
+    - name: Build api
       run: |
         cd MyPortfolioSolution/MyPortfolioApi
         dotnet publish -c Release 
@@ -43,22 +35,13 @@ jobs:
         pwd
         ls
         cp -a MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/. /production/
-                                
-
-  build-vue:
-    needs: clean-old-production
-    name: Build Vue Client
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
 
     - name: Use Node.js 16.x
       uses: actions/setup-node@v2
       with:
         node-version: 16.x
 
-    - name: npm install & build
+    - name: Build client
       run: |
         cd MyPortfolioSolution/MyPortfolioClient
         npm install
@@ -72,7 +55,7 @@ jobs:
 
   
   build-push-gcr:
-    needs: [build-dotnet, build-vue] 
+    needs: build-api-and-client 
     name: Build and Push to GCP
     runs-on: ubuntu-latest
     env:
