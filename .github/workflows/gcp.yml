@@ -38,7 +38,7 @@ jobs:
 
     - name: Move Api files to production directory
       run: |
-        mv -r MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/* ./production/
+        mv MyPortfolioSolution/MyPortfolioApi/bin/Release/net6.0/publish/* ./production/
         pwd
                                 
 
