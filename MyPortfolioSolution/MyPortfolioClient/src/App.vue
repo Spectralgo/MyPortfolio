@@ -3,11 +3,13 @@ import MenuNavBar from "./components/MenuNavBar.vue";
 import Sidebar from "./components/Sidebar.vue";
 import HeroSection from "./components/HeroSection.vue";
 import MyWork from "./components/MyWork.vue";
-import MyClients from "./components/MyClients.vue";
 import HireMe from "./components/HireMe.vue";
+import MySkills from "./components/MySkills.vue";
+
+
 export default {
   name: 'App',
-  components: {HireMe, MyClients, MyWork, HeroSection, Sidebar, MenuNavBar},
+  components: {HireMe, MySkills, MyWork, HeroSection, Sidebar, MenuNavBar},
 
   data: () => ({
     sidebarIsVisible: false
@@ -16,29 +18,34 @@ export default {
     toggleSidebar() {
       this.sidebarIsVisible = !this.sidebarIsVisible
     },
-    hideSidebar(){
+    hideSidebar() {
       this.sidebarIsVisible = false
     },
   },
+  created() {
+    window.addEventListener('scroll', () => {
+      this.sidebarIsVisible = false
+    })
+  }
 }
 
 </script>
 
 <template>
-<body class="min-h-screen font-poppins mx-auto">
+  <body class="min-h-screen font-poppins mx-auto">
 
   <!-- menu bar/nav -->
- <MenuNavBar @toggle-sidebar="toggleSidebar" />
+  <MenuNavBar @toggle-sidebar="toggleSidebar"/>
   <!-- sidebar -->
-  <Sidebar @hide-sidebar="hideSidebar" :sidebarIsVisible="sidebarIsVisible" />
+  <Sidebar :sidebarIsVisible="sidebarIsVisible" @hide-sidebar="hideSidebar"/>
   <!-- content -->
   <main class="mb-16">
-      <HeroSection/>
+    <HeroSection/>
     <MyWork/>
-    <MyClients/>
+    <MySkills/>
     <HireMe/>
   </main>
-</body>
+  </body>
 </template>
 
 <style>

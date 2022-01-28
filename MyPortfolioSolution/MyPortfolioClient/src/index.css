@@ -68,3 +68,7 @@ html, body{
 .nav-dot:hover span {
     opacity: 1
 }
+
+/*
+this is to let the tag navigation some space on top https://css-tricks.com/hash-tag-links-padding/
+*/

@@ -1,22 +1,22 @@
 ﻿<template>
-  <div id="HeroSection" class="container mt-16 flex justify-between items-center mx-auto">
+  <div id="home" class="container mt-16 flex justify-between items-center mx-auto">
     <div class="flex flex-wrap md:flex-nowrap">
 
       <!-- 1/3 section dot-nav -->
       <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
         <div class="absolute left-5p  transform -translate-x-1/2 space-y-6 mt-36">
           <a v-smooth-scroll class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body"
-             href="#HeroSection">
+             href="#home">
             <span class="absolute bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
           </a>
-          <a v-smooth-scroll class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body" href="#MyWork">
+          <a v-smooth-scroll class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body" href="#my-work">
             <span class="absolute bg-black  px-2 py-1 rounded-md ml-10 opacity-0">Travail</span>
           </a>
-          <a v-smooth-scroll class="nav-dot  block w-7 h-7 rounded-full border-4 border-nav bg-body" href="#MyClients">
-            <span class="absolute bg-black px-2 py-1 rounded-md ml-10 opacity-0">Clients</span>
+          <a v-smooth-scroll class="nav-dot  block w-7 h-7 rounded-full border-4 border-nav bg-body" href="#my-skills">
+            <span class="absolute bg-black px-2 py-1 rounded-md ml-10 opacity-0">Compétences</span>
           </a>
-          <a v-smooth-scroll class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body" href="#HireMe">
-            <span class="absolute bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
+          <a v-smooth-scroll class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body" href="#hire-me">
+            <span class="absolute bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contacts</span>
           </a>
         </div>
       </nav>
@@ -36,7 +36,7 @@
         </ul>
 
         <div class="w-full flex justify-center md:justify-start mt-2">
-          <a v-smooth-scroll class="btn btn-primary capitalize" href="#MyWork">
+          <a v-smooth-scroll class="btn btn-primary capitalize" href="#my-work">
             <svg class="mr-3" height="20" viewBox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg"><title>
               zoom</title>
               <g class="nc-icon-wrapper" fill="#ffffff">

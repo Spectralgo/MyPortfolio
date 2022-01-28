@@ -1,7 +1,7 @@
 ﻿<template>
   <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 ">
     <section class="w-full">
-      <h2 id="HireMe" class="secondary-title">Hire me</h2>
+      <h2 id="hire-me" class="secondary-title">Contactez moi</h2>
       <p class="section-paragraph">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi aperiam aspernatur atque beatae consectetur esse eum hic inventore ipsam ipsum nihil nobis odit, quam quia soluta tempore totam, velit?
       </p>
