@@ -30,7 +30,7 @@
           de A à Z </h1>
 
         <ul class="text-center md:text-left font-bold space-y-1 mb-5">
-          <li><span class="text-accent">Dévelopeur Web</span> Full Stack</li>
+          <li><span class="text-accent">Developer web </span>full stack</li>
           <li><span class="text-accent">Designer</span> de produits technologiques</li>
           <li><span class="text-accent">Manager</span> de projets innovants</li>
         </ul>

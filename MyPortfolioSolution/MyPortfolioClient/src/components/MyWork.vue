@@ -2,9 +2,10 @@
   <div class="container mt-64 flex justify-between items center mx-auto px-8 md:px-14 lg:px-24 w-full">
     <section class="w-full">
       <h2 id="my-work" class="secondary-title">Mon travail</h2>
-      <p class="section-paragraph">
         <!-- exemple text -->
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!--      <li><span class="text-accent">C# .NET Developer</span></li>-->
+      <p class="section-paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
