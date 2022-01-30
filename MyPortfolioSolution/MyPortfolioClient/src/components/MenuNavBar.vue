@@ -11,7 +11,7 @@
            class="hidden lg:block py-2 px-2 lg:px-4 hover:bg-neutral transition duration-200" href="#">Home</a>
 
         <a v-smooth-scroll @mouseover="isHovering = true" @mouseout="isHovering = false"
-           class="block py-2 px-2 lg:px-4 hover:bg-neutral transition duration-200" href="#my-work">Mon travail</a>
+           class="block py-2 px-2 lg:px-4 hover:bg-neutral transition duration-200" href="#my-work">Mon métier</a>
 
         <a v-smooth-scroll  @mouseover="isHovering = true" @mouseout="isHovering = false"
            class="block py-2 px-2 lg:px-4 hover:bg-neutral transition duration-200" href="#my-skills">Mes
@@ -22,7 +22,7 @@
 
       </div>
       <!-- mobile menu button-->
-      <button class="md:hidden fixed focus:outline-none focus:bg-base-200 rounded  md:mt-7 p-2 right-5 z-50"
+      <button id="hamburger-menu-button" class="md:hidden fixed focus:outline-none focus:bg-base-200 rounded  md:mt-7 p-2 right-5 z-50"
               @click="$emit('toggle-sidebar')">
         <svg class="h-5 w-5" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
           <title>menu</title>

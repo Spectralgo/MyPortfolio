@@ -3,13 +3,14 @@
     <section class="w-full">
       <h2 id="my-skills" class="secondary-title">Mes compétences</h2>
       <p class="section-paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ipsum officia! Autem consequatur enim labore. Ab
-        accusantium, deleniti dicta dignissimos dolore fugiat incidunt iusto molestiae natus officia, quas velit,
-        veritatis. </p>
+        J'utilise <span class="text-white">Microsoft Asp.net</span> pour mes solutions sur server (backend) comme le
+        cloud computing, la création d'APIs, la manipulation de base de données, etc.
+        Je programme mes solutions client (frontend) avec <span class="text-white">Vue.js & Nuxt</span>.
+      </p>
       <!--Product Owner Role section-->
       <div class="space-y-12 my-16">
         <div
-            class="w-full border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+            class="w-full sm:border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 
           <!-- Role Logo -->
           <div class="mb-6 lg:mb-0">
@@ -47,7 +48,7 @@
       <!--Product Owner Role section-->
       <div class="space-y-12 my-16">
         <div
-            class="w-full border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+            class="w-full sm:border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 
           <!-- Role Logo -->
           <div class="mb-6 lg:mb-0">
@@ -85,7 +86,7 @@
       <!--Product Owner Role section-->
       <div class="space-y-12 my-16">
         <div
-            class="w-full border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+            class="w-full sm:border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 
           <!-- Role Logo -->
           <div class="mb-6 lg:mb-0">

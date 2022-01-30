@@ -15,17 +15,31 @@ export default {
     sidebarIsVisible: false
   }),
   methods: {
+    hideHamburgerMenuButton() {
+      const hamburgerMenuButton = document.querySelector("#hamburger-menu-button");
+      if (this.sidebarIsVisible === true) {
+        return hamburgerMenuButton.focus();
+      }
+      return hamburgerMenuButton.blur();
+    },
     toggleSidebar() {
       this.sidebarIsVisible = !this.sidebarIsVisible
+      this.hideHamburgerMenuButton();
     },
     hideSidebar() {
       this.sidebarIsVisible = false
+      this.hideHamburgerMenuButton();
     },
   },
   created() {
     window.addEventListener('scroll', () => {
       this.sidebarIsVisible = false
+      this.hideHamburgerMenuButton();
     })
+
+
+  },
+  mounted() {
   }
 }
 

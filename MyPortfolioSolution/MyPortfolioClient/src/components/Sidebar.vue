@@ -12,7 +12,7 @@
         <a v-smooth-scroll
           class="block py-2 px-4 hover:bg-neutral transition duration-100"
           href="#my-work"
-        >Mon travail</a>
+        >Mon métier</a>
         <a v-smooth-scroll
           class="block py-2 px-4 hover:bg-neutral transition duration-100"
           href="#my-skills"
