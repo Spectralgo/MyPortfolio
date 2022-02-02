@@ -28,7 +28,7 @@
                 class="inline-block w-full my-8 overflow-hidden align-middle transition-all transform bg-base-200 shadow-xl rounded-2xl"
             >
             <div  @click="closeModal">
-<svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer absolute z-30 h-16 w-16 opacity-40 hover:opacity-100 hover:h-20 hover:w-20 hover:bg-primary-focus  ease-in-out duration-300 inset-x-0 mt-4 hover:mt-8 m-auto  rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer z-30 h-16 w-16  hover:opacity-100 hover:h-20 hover:w-20 hover:bg-primary-focus  ease-in-out duration-300 hover:mt-8 m-auto  rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>
             </div>

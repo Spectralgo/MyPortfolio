@@ -22,7 +22,7 @@
 
       </div>
       <!-- mobile menu button-->
-      <button id="hamburger-menu-button" class="md:hidden fixed focus:outline-none focus:bg-base-200 rounded  md:mt-7 p-2 right-5 z-50"
+      <button  id="hamburger-menu-button" class="md:hidden fixed focus:outline-none focus:bg-base-200 rounded  md:mt-7 p-2 right-5 z-50"
               @click="$emit('toggle-sidebar')">
         <svg class="h-5 w-5" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
           <title>menu</title>
