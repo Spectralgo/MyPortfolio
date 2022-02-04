@@ -5,62 +5,19 @@
       <p class="section-paragraph">
         N'hésitez pas à me contacter si vous pensez que mon profile peux vous aider à atteindre vos objectifs. Je vis
         actuellement à la Réunion, mais je suis ouvert à une relocalisation en france métropolitaine. </p>
-      <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-16 ">
-        <div class=" bg-base-100 space-y-10">
-          <div>
-            <label class="label mb-2">
-              <span class="label-text">Quel est votre nom ?</span>
-            </label>
-            <input type="text" class="bg-base-200 rounded-none input">
-          </div>
-          <div>
-            <label class="label mb-2">
-              <span class="label-text">Email</span>
-            </label>
-            <input type="text" class="bg-base-200 rounded-none input w-full max-w-sm">
-          </div>
-          <div>
-            <label class="label mb-2 ">
-              <span class="label-text">Message</span>
-            </label>
-            <textarea type="text" class="bg-base-200 rounded-none input h-40 w-full max-w-sm"></textarea>
-          </div>
-          <button class="btn btn-primary capitalize">Envoyer</button>
+      <div class="w-full  mt-8 ">
+        <div class="flex space-x-6">
+          <a href="https://www.linkedin.com/in/florian-renard-3243b5140" class=" btn btn-primary flex justify-center items-center space-x-2">
+            <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <span>Contactez moi</span>
+
+          </a>
+
         </div>
-
         <div class="mt-12">
-          <!-- Contact info -->
-          <p class="text-secondary-bis">06 93 21 55 24</p>
-          <a href="mailto:contact@florianrenard.com" class="text-secondary-bis underline">contact@florianrenard.com</a>
+          <img class="h-6" src="../assets/img/spectralgo.png" >
 
-          <!-- Socials -->
-          <div class="flex mt-20 space-x-6">
-            <a href="https://www.linkedin.com/in/florian-renard-a8a8b8b4/" class="text-secondary-bis underline">
-              <svg height="42" width="42" xmlns="http://www.w3.org/2000/svg" color="white" viewBox="0 0 256 256">
-                <g fill="none">
-                  <path
-                      d="M0 18.338C0 8.216 8.474 0 18.92 0h218.16C247.53 0 256 8.216 256 18.338v219.327C256 247.79 247.53 256 237.08 256H18.92C8.475 256 0 247.791 0 237.668V18.335z"
-                      fill="#069"/>
-                  <path
-                      d="M77.796 214.238V98.986H39.488v115.252H77.8zM58.65 83.253c13.356 0 21.671-8.85 21.671-19.91-.25-11.312-8.315-19.915-21.417-19.915-13.111 0-21.674 8.603-21.674 19.914 0 11.06 8.312 19.91 21.169 19.91h.248zM99 214.238h38.305v-64.355c0-3.44.25-6.889 1.262-9.346 2.768-6.885 9.071-14.012 19.656-14.012 13.858 0 19.405 10.568 19.405 26.063v61.65h38.304v-66.082c0-35.399-18.896-51.872-44.099-51.872-20.663 0-29.738 11.549-34.78 19.415h.255V98.99H99.002c.5 10.812-.003 115.252-.003 115.252z"
-                      fill="#fff"/>
-                </g>
-              </svg>
-            </a>
-
-            <a href="https://www.linkedin.com/in/florian-renard-a8a8b8b4/" class="text-secondary-bis underline">
-              <svg height="42" width="42" xmlns="http://www.w3.org/2000/svg" color="white" viewBox="0 0 256 256">
-                <g fill="none">
-                  <path
-                      d="M0 18.338C0 8.216 8.474 0 18.92 0h218.16C247.53 0 256 8.216 256 18.338v219.327C256 247.79 247.53 256 237.08 256H18.92C8.475 256 0 247.791 0 237.668V18.335z"
-                      fill="#069"/>
-                  <path
-                      d="M77.796 214.238V98.986H39.488v115.252H77.8zM58.65 83.253c13.356 0 21.671-8.85 21.671-19.91-.25-11.312-8.315-19.915-21.417-19.915-13.111 0-21.674 8.603-21.674 19.914 0 11.06 8.312 19.91 21.169 19.91h.248zM99 214.238h38.305v-64.355c0-3.44.25-6.889 1.262-9.346 2.768-6.885 9.071-14.012 19.656-14.012 13.858 0 19.405 10.568 19.405 26.063v61.65h38.304v-66.082c0-35.399-18.896-51.872-44.099-51.872-20.663 0-29.738 11.549-34.78 19.415h.255V98.99H99.002c.5 10.812-.003 115.252-.003 115.252z"
-                      fill="#fff"/>
-                </g>
-              </svg>
-            </a>
-          </div>
+          
 
         </div>
       </div>

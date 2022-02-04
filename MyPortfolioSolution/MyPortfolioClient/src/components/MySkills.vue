@@ -27,6 +27,7 @@
               <div class="badge badge-secondary">Javascript</div>
               <div class="badge badge-secondary">Vuejs / Nuxt.js</div>
               <div class="badge badge-secondary">React</div>
+              <div class="badge badge-secondary">Tailwindcss</div>
               <div class="badge badge-secondary">NPM</div>
               <div class="badge badge-accent">Docker & Hosting</div>
               <div class="badge badge-accent">Bash / Linux</div>
@@ -102,7 +103,9 @@
               <div class="badge badge-primary">Jira/SCRUM</div>
               <div class="badge badge-secondary">Lean</div>
               <div class="badge badge-secondary">Product-Market Fit</div>
-              <div class="badge badge-accent">Microsoft Office 365</div>
+              <div class="badge badge-accent">Microsoft Teams</div>
+              <div class="badge badge-accent">Slack</div>
+              <div class="badge badge-accent">Communication Skills</div>
             </div>
             <p class=" text-center sm:text-left ">
               Le Product Owner (PO) coordonne la chaîne de production et représente l’utilisateur. Il est une réelle
