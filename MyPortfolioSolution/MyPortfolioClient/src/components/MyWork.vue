@@ -8,26 +8,26 @@
       <div>
         <p class="section-paragraph">
           En 2016, j'ai créé une
-          <span class="text-white">start-up de jeux vidéo éducatif</span> sous le nom de Poly
-          Wild. J'ai été repsonable de
+          <span class="text-white">start-up de jeux vidéo éducatifs</span> sous le nom de Poly
+          Wild. J'ai été responsable de
           la conceptualisation du produit
           et de la
           <span class="text-white">gestion de projets</span>.
-          J'ai pris la décision de fermer cette entreprise en 2020, lors du premier confinement, afin me concentrer sur
+          J'ai pris la décision de fermer cette entreprise en 2020, lors du premier confinement, afin de me concentrer sur
           mes compétences techniques.
         </p>
         <p class="section-paragraph">
-          À l'époque, mes reponsabilitées m'obligeaient à délaisser cet aspect de mon métier, que j'estime être
-          extrement important. Prendre le temps de renforcer mes compétences de
+          À l'époque, mes responsabilités m'obligeaient à délaisser cet aspect de mon métier, que j'estime être
+          extrêmement important. Prendre le temps de renforcer mes compétences de
           <span class="text-white">programmeur informatique</span>
-          à été l'une de mes
-          meilleurs décision.
+          a été l'une de mes
+          meilleurs décisions.
         </p>
         <p class="section-paragraph">
           Aujourd'hui je suis non seulement capable de
           <span class="text-white">conceptualiser un produit</span>
           technologique et
-          <span class="text-white">d'encadrer sa crétation</span>,
+          <span class="text-white">d'encadrer sa création</span>,
           je suis également capable de
           <span class="text-white">le construire</span> et de
           <span class="text-white">le vendre</span>.
