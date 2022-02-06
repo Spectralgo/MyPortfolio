@@ -21,7 +21,7 @@
           extrêmement important. Prendre le temps de renforcer mes compétences de
           <span class="text-white">programmeur informatique</span>
           a été l'une de mes
-          meilleurs décisions.
+          meilleures décisions.
         </p>
         <p class="section-paragraph">
           Aujourd'hui je suis non seulement capable de
@@ -55,7 +55,7 @@
             <!--Text-->
             <p
               class="pt-4"
-            >Une Start-up qui avait pour mission d'enseigner les bases du machine learning et du deep learning aux enfants. J'ai été repsonable de la conceptualisation du produit et de la gestion de projets.</p>
+            >Une Start-up qui avait pour mission d'enseigner les bases du machine learning et du deep learning aux enfants. J'ai été responsable de la conceptualisation du produit et de la gestion de projets.</p>
             <div class="card-actions">
               <!--Links-->
               <a class="btn btn-primary" href="http://www.polygonewild.com/">Website</a>
@@ -93,8 +93,8 @@
             </div></div>
             <!--Text-->
             <p class="pt-4">
-              Vous pouvez consulter sur GitHub le code source de ce site internet. J'utilise docker et github actions
-              pour realiser un build dans le cloud à chaque git push. L'image docker est hébergé sur GCP.
+              Vous pouvez consulter sur GitHub le code source de ce site internet. J'utilise docker et GitHub actions
+              pour réaliser un build dans le cloud à chaque git push. L'image docker est hébergé sur GCP.
             </p>
             <div class="card-actions ">
               <!--Links-->
@@ -179,7 +179,7 @@
             <!--Text-->
             <p
               class="pt-4"
-            >Un reseau social pour les adeptes du crosfit qui permet d'uploader des vidéos de mouvements, tout en notant leur relations recpectives.</p>
+            >Un réseau social pour les adeptes du CrossFit qui permet d'uploader des vidéos de mouvements, tout en notant leurs relations respectives.</p>
             <div class="card-actions">
               <!--Links-->
               <!--              <button class="btn btn-primary">Website</button>-->
