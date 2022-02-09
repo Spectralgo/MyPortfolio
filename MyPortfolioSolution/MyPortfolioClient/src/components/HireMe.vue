@@ -3,7 +3,7 @@
     <section class="w-full">
       <h2 id="hire-me" class="secondary-title">Contactez moi</h2>
       <p class="section-paragraph">
-        N'hésitez pas à me contacter si vous pensez que mon profile peux vous aider à atteindre vos objectifs. Je vis
+        N'hésitez pas à me contacter si vous pensez que mon profil peut vous aider à atteindre vos objectifs. Je vis
         actuellement à la Réunion, mais je suis ouvert à une relocalisation en France métropolitaine ou un à poste en télétravail.</p>
       <div class="w-full  mt-8 ">
         <div class="flex space-x-6">
