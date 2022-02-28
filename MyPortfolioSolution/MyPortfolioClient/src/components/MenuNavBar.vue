@@ -8,9 +8,6 @@
       <div class=" hidden justify-center items-center md:flex  md:space-x-2 ">
 
         <a v-smooth-scroll @mouseover="isHovering = true" @mouseout="isHovering = false"
-           class="hidden lg:block py-2 px-2 lg:px-4 hover:bg-neutral transition duration-200" href="#">Home</a>
-
-        <a v-smooth-scroll @mouseover="isHovering = true" @mouseout="isHovering = false"
            class="block py-2 px-2 lg:px-4 hover:bg-neutral transition duration-200" href="#my-work">Mon métier</a>
 
         <a v-smooth-scroll  @mouseover="isHovering = true" @mouseout="isHovering = false"

@@ -14,12 +14,12 @@
             class="w-full sm:border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
           <!-- Role Logo -->
           <div class="mb-6 lg:mb-0 flex justify-center items-center">
-            <img src="../assets/img/dotnet.png" alt="dotnet logo"/>
+            <img width="990"  src="../assets/img/dotnet.png" alt="dotnet logo"/>
           </div>
           <!--Product Owner-->
           <div
-              class="p-5 shadow-2xl rounded-md bg-[#2d167a] flex flex-wrap justify-center text-center lg:text-left lg:block">
-            <h3 class="text-3xl font-semibold">Junior Web Developer</h3>
+              class="p-5 shadow-2xl sm:rounded-md bg-[#2d167a] flex flex-wrap justify-center text-center lg:text-left lg:block">
+            <h3 class="text-3xl font-semibold">Full Stack Web Developer</h3>
 
             <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
               <div class="badge badge-primary">C#</div>
@@ -56,12 +56,12 @@
         <div
             class="w-full sm:border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
           <!-- Role Logo -->
-          <div class="mb-6 lg:mb-0 flex justify-center items-center">
+          <div class=" mb-6 lg:mb-0 flex justify-center items-center">
             <img src="../assets/img/sprint.jpg" alt="sprint book cover"/>
           </div>
           <!--Product Designer-->
           <div
-              class="p-5 shadow-2xl rounded-md bg-[#004E5D] flex flex-wrap justify-center text-center lg:text-left lg:block">
+              class="p-5 shadow-2xl sm:rounded-md bg-[#004E5D] flex flex-wrap justify-center text-center lg:text-left lg:block">
             <h3 class="text-3xl font-semibold">Product Designer</h3>
 
             <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
@@ -99,7 +99,7 @@
           </div>
           <!--Product Owner-->
           <div
-              class="p-5 shadow-2xl rounded-md bg-[#00337F] flex flex-wrap justify-center text-center lg:text-left lg:block">
+              class="p-5 shadow-2xl sm:rounded-md bg-[#00337F] flex flex-wrap justify-center text-center lg:text-left lg:block">
             <h3 class="text-3xl font-semibold">Product Owner</h3>
 
             <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
