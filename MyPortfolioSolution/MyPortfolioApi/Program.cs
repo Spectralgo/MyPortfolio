@@ -24,5 +24,5 @@ app.UseSpa(spaBuilder =>
         spaBuilder.UseProxyToSpaDevelopmentServer("http://localhost:3000/");
     }
 });
-app.MapControllers();
+// app.MapControllers();
 app.Run("http://0.0.0.0:5000");

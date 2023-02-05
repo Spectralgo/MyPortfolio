@@ -90,7 +90,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-
+<!--todo: Change the video player to something native -->
     </div>
   </div>
 </template>
@@ -100,7 +100,6 @@ import axios from "axios";
 import { ref } from "vue";
 let message_from_api = ref("");
 axios.get('/api/home/hello').then(res => message_from_api.value = res.data)
-
 </script>
 
 <style scoped>

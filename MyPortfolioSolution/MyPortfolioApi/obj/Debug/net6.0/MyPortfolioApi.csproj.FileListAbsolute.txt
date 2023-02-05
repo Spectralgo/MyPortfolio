@@ -50,7 +50,6 @@ C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfol
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\bin\Debug\net6.0\MyPortfolioApi.deps.json
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\bin\Debug\net6.0\MyPortfolioApi.runtimeconfig.json
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\bin\Debug\net6.0\MyPortfolioApi.dll
-C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\bin\Debug\net6.0\ref\MyPortfolioApi.dll
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\bin\Debug\net6.0\MyPortfolioApi.pdb
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\bin\Debug\net6.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\obj\Debug\net6.0\MyPortfolioApi.csproj.AssemblyReference.cache
@@ -67,3 +66,4 @@ C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfol
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\obj\Debug\net6.0\ref\MyPortfolioApi.dll
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\obj\Debug\net6.0\MyPortfolioApi.pdb
 C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\obj\Debug\net6.0\MyPortfolioApi.genruntimeconfig.cache
+C:\code\website\projects\portfolio\MyPortfolio\src\MyPortfolioSolution\MyPortfolioApi\obj\Debug\net6.0\refint\MyPortfolioApi.dll

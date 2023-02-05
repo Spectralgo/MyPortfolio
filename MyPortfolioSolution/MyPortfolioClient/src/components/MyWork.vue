@@ -81,7 +81,7 @@
               <!--Badges-->
               <div class="flex-col">
                 <div class="flex-wrap space-x-2 pb-2">
-                  <div class="badge badge-outline">Dévellopeur web</div>
+                  <div class="badge badge-outline">Développeur web</div>
                   <div class="badge badge-secondary">Portfolio</div>
                 </div>
                 <div class="flex-wrap space-x-2">
@@ -168,7 +168,7 @@
               <!--Badges-->
               <div class="flex-col">
                 <div class="flex-wrap space-x-2 pb-2">
-                  <div class="badge badge-outline">Dévellopeur web</div>
+                  <div class="badge badge-outline">Développeur web</div>
                   <div class="badge badge-secondary">App</div>
                 </div>
                 <div class="flex-wrap space-x-2">

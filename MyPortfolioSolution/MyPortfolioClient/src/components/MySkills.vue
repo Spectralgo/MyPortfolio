@@ -95,7 +95,7 @@
             class="w-full sm:border border-nav sm:p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
           <!-- Role Logo -->
           <div class="mb-6 lg:mb-0 flex justify-center items-center">
-            <img width="1250" height="1250" src="../assets/img/logo-guideline-2_2x_170912_043411.png" alt="agile"/>
+            <img width="1150"  src="../assets/img/logo-guideline-2_2x_170912_043411.png" alt="agile"/>
           </div>
           <!--Product Owner-->
           <div
