@@ -59,4 +59,5 @@ jobs:
             --image gcr.io/$PROJECT_ID/$IMAGE_NAME:latest \
             --platform managed \
             --region europe-west1 \
-            --allow-unauthenticated
+            --allow-unauthenticated \
+            --set-env-vars=PORT=5000
