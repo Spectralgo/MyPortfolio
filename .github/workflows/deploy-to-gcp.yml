@@ -36,7 +36,7 @@ jobs:
           cp -rT dist ../..//production/dist
 
       - name: Setup Google Cloud CLI
-        uses: google-github-actions/setup-gcloud@0.3.0
+        uses: google-github-actions/setup-gcloud@v0.3.0
         with:
           service_account_key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
           project_id: ${{ env.PROJECT_ID }}
