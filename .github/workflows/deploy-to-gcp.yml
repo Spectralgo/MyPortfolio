@@ -60,4 +60,4 @@ jobs:
             --platform managed \
             --region europe-west1 \
             --allow-unauthenticated \
-            --set-env-vars=PORT=5000
+            --port=5000
