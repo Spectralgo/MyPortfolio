@@ -8,7 +8,7 @@
       <div>
         <p class="section-paragraph">
           Je suis un programmeur autodidacte avec
-          <span class="text-white">4 ans d’expérience.</span> J’aime construire
+          <span class="text-white">5 ans d’expérience.</span> J’aime construire
           et concevoir
           des produits innovants. Je recherche un poste de
           <span
