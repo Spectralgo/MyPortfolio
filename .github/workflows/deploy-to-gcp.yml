@@ -12,7 +12,6 @@ jobs:
     env:
       IMAGE_NAME: ${{ secrets.IMAGE_NAME }}
       PROJECT_ID: ${{ secrets.PROJECT_ID }}
-      DOMAIN: florianrenard.com
 
     steps:
       - name: Checkout
@@ -61,5 +60,4 @@ jobs:
             --platform managed \
             --region europe-west1 \
             --allow-unauthenticated \
-            --domain ${{ env.DOMAIN }} \
             --port=5000
